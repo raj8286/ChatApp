@@ -1,6 +1,7 @@
-# Real-Time Chat Application [ 🔗 https://chatapp-369r.onrender.com/ ]
-
+# Real-Time Chat Application 
 A modern, full-stack chat application built with React, Node.js, and PostgreSQL, featuring real-time messaging, user authentication, and image sharing capabilities.
+[ 🔗 https://chatapp-369r.onrender.com/ ]
+
 
 ## Features
 
