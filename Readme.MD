@@ -1,4 +1,4 @@
-# Real-Time Chat Application
+# Real-Time Chat Application [ 🔗 https://chatapp-369r.onrender.com/ ]
 
 A modern, full-stack chat application built with React, Node.js, and PostgreSQL, featuring real-time messaging, user authentication, and image sharing capabilities.
 
@@ -6,7 +6,7 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 
 - 🔐 User Authentication (Sign up, Login, Logout)
 - 💬 Real-time messaging
-- �� User profiles with customizable avatars
+- 👤 User profiles with customizable avatars
 - 📸 Image sharing in chats
 - 🎨 Modern UI with Tailwind CSS
 - 🔄 Real-time updates using Socket.IO
@@ -19,7 +19,6 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 - Tailwind CSS
 - Socket.IO Client
 - Axios
-- Zustand (State Management)
 
 ### Backend
 - Node.js
