@@ -42,6 +42,7 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 ### Theme Modes
 ![Dark Mode](./assets/Dark_Mode.png)
 *Dark mode interface*
+
 ![Light Mode](./assets/Light_Mode.png)
 *Light mode interface*
 
