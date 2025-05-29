@@ -1,27 +1,43 @@
-import mongoose from "mongoose";
+import { DataTypes } from 'sequelize';
+import sequelize from '../lib/db.js';
+import User from './user.model.js';
 
-const messageSchema = new mongoose.Schema(
-  {
-    senderId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
-    receiverId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
-    text: {
-      type: String,
-    },
-    image: {
-      type: String,
-    },
+const Message = sequelize.define('Message', {
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    autoIncrement: true
   },
-  { timestamps: true }
-);
+  senderId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+      model: User,
+      key: 'id'
+    }
+  },
+  receiverId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+      model: User,
+      key: 'id'
+    }
+  },
+  text: {
+    type: DataTypes.TEXT,
+    allowNull: true
+  },
+  image: {
+    type: DataTypes.STRING,
+    allowNull: true
+  }
+}, {
+  timestamps: true
+});
 
-const Message = mongoose.model("Message", messageSchema);
+// Define associations
+Message.belongsTo(User, { as: 'sender', foreignKey: 'senderId' });
+Message.belongsTo(User, { as: 'receiver', foreignKey: 'receiverId' });
 
 export default Message;
