@@ -31,6 +31,20 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 - Cloudinary (Image Storage)
 
 
-### Login
+### Authentication
+![Login Interface](./assets/Login.png.png)
 
 
+### Chat Interface
+![Chat Interface](./assets/Chat.png)
+
+
+### Theme Modes
+![Dark Mode](./assets/Dark_Mode.png.png)
+*Dark mode interface*
+![Light Mode](./assets/Light_Mode.png.png)
+*Light mode interface*
+
+
+### User Profile
+![Profile Interface](./assets/Profile.png)
