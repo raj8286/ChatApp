@@ -32,7 +32,7 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 
 
 ### Authentication
-![Login Interface](./assets/Login.png.png)
+![Login Interface](./assets/Login.png)
 
 
 ### Chat Interface
@@ -40,9 +40,9 @@ A modern, full-stack chat application built with React, Node.js, and PostgreSQL,
 
 
 ### Theme Modes
-![Dark Mode](./assets/Dark_Mode.png.png)
+![Dark Mode](./assets/Dark_Mode.png)
 *Dark mode interface*
-![Light Mode](./assets/Light_Mode.png.png)
+![Light Mode](./assets/Light_Mode.png)
 *Light mode interface*
 
 
